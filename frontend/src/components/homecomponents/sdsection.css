@@ -1,0 +1,43 @@
+.sdsection{
+    display: flex;
+    align-items: center;
+    height: 40vh;
+    
+}
+.dummytext{
+    max-width: 120ch;
+    word-break: break-all;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(88, 88, 86);
+    line-height: 1.8rem;
+}
+.mainlogo{
+    align-items: flex-end;
+}
+.content{
+    display: flex;
+    gap: 6rem;
+}
+.textmain{
+    margin-top: -2rem;
+}
+.heading{
+    font-size: 2.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(36, 36, 34);
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+.heading::after{
+    content: '';
+    position: absolute;
+    width: 50px;
+    display: flex;
+    background-color: rgb(189, 128, 15);
+    height: 2px;
+  
+}
+*{
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+}

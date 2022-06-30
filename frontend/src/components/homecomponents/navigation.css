@@ -1,0 +1,69 @@
+.Navigation{
+    background-color: rgb(69, 68, 68);
+    height: 5rem;
+    
+    
+}
+
+
+.logo{
+    width: 10rem;
+    margin-left: -.3rem;
+    padding-top: .4rem;
+    
+}
+
+
+.navlist{
+    display: flex;
+    align-items: center;
+    color: rgb(199, 190, 190);
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 5rem;
+}
+.navlist ul {
+    
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+    margin-right: 2rem;
+    font-size: .9rem;
+    
+}
+
+.navlist ul li:hover{
+    cursor: pointer;
+    color: rgb(158, 149, 149);
+    
+}
+.navicons{
+    width: 1rem;
+    
+    filter: invert(71%) sepia(98%) saturate(15%) hue-rotate(594deg) brightness(100%) contrast(111%);
+    margin-right: 2rem;
+}
+.navicons:hover{
+    cursor: pointer;
+    filter: invert(71%) sepia(98%) saturate(100%) hue-rotate(194deg) brightness(100%) contrast(11%);
+}
+.brand{
+    display: flex;
+    align-items: center;
+}
+.card{
+    width: 1rem;
+    
+    filter: invert(71%) sepia(98%) saturate(15%) hue-rotate(594deg) brightness(100%) contrast(111%);
+    margin-right: 2rem;
+}
+.card:hover{
+    cursor: pointer;
+    filter: invert(71%) sepia(98%) saturate(100%) hue-rotate(194deg) brightness(100%) contrast(11%);
+}
+.card::after{
+    content: "";
+    border-radius: 50%;
+    
+}

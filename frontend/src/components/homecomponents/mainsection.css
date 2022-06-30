@@ -1,0 +1,106 @@
+
+.slider{
+    
+    height: 80vh;
+    justify-content: center;
+    animation: animate 7s ease-in-out infinite;
+}
+@keyframes animate {
+    0%,100%{
+        background-image: url('../../assets/mainassets/slide1.jpg');
+    }
+    25%{
+        background-image: url('../../assets/mainassets/slide2.jpg');
+    }
+    75%{
+        background-image: url('../../assets/mainassets/slide3.jpg');
+    }
+
+    
+}
+.animatetext{
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    padding-top: 6rem;
+    color: rgb(202, 144, 37);
+}
+.animated{
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #eee;
+    font-size: 6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1px;
+    transition: 0.3s ease-in-out all;
+}
+.headerSearch{
+    background-color: rgb(39, 36, 36);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    font-size: 2rem;
+    justify-content: center;
+    height: 20%;
+    
+}
+
+
+.btn{
+    outline: none;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0.4% 2% 0.4% 2%;
+    background-color: rgb(165, 114, 19);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    cursor: pointer;
+    
+}
+input[type='date']{
+    font-size: 1.3rem;
+    color: rgb(145, 145, 145);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    border: 1px solid white;
+    background-color: transparent;
+    cursor: pointer;
+}
+input[type='number']{
+
+    font-size: 1rem;
+    color: rgb(116, 116, 116);
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    border: 1px solid white;
+    background-color: transparent;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    margin: 0px;
+    display: none;
+    margin-right: 20px !important; }
+.calendare{
+    margin-top: -21%;
+    position: absolute;
+    width: 100px;
+    color: rgb(49, 46, 46);
+    font-size: 1rem;   
+}
+.calendarehidde{
+    display: none;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  opacity:0;
+  pointer-events:none;
+}
+*{
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+}
